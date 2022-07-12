@@ -1,1 +1,1 @@
-# Apple-Watch-Dashboard
+# Apple Watch Dashboard

@@ -5,7 +5,6 @@ import {
   FaDumbbell,
   FaBed,
   FaChartPie,
-  FaCog,
 } from "react-icons/fa";
 
 export const SidebarData = [
@@ -38,10 +37,5 @@ export const SidebarData = [
     title: "Report",
     link: "/report",
     icon: <FaChartPie />,
-  },
-  {
-    title: "Settings",
-    link: "/settings",
-    icon: <FaCog />,
   },
 ];

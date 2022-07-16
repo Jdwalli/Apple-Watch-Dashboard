@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className='h-screen w-screen bg-yellow-300'>
+      <div className='h-screen w-screen bg-gray-800'>
       <VerticalNav /> 
       <div className="h-screen bg-primary ml-24">
         <Header />

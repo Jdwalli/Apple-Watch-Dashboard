@@ -34,8 +34,8 @@ export const SidebarData = [
     icon: <FaBed />,
   },
   {
-    title: "Report",
-    link: "/report",
+    title: "Reports",
+    link: "/reports",
     icon: <FaChartPie />,
   },
 ];

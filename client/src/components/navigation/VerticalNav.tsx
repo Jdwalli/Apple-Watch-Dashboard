@@ -22,7 +22,7 @@ const VerticalNav: FunctionComponent = () => {
             <div
               className={
                 currentPath === item.link
-                  ? "sidebar-icon group bg-green-600 text-white rounded-xl"
+                  ? "sidebar-icon group text-white rounded-xl"
                   : "sidebar-icon group"
               }
               key={item.title}

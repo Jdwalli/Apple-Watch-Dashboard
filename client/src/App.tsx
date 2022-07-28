@@ -10,6 +10,7 @@ import { Vitals } from "./pages/Vitals";
 import { Workouts } from "./pages/Workouts";
 import { Sleep } from "./pages/Sleep";
 import { Reports } from "./pages/Reports";
+import { ArrowButton } from "./components/common/ArrowButton";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <VerticalNav />
         <div className="h-screen bg-primary ml-24">
           <Header />
+      <ArrowButton direction="right"/>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/activity" element={<Activity />} />

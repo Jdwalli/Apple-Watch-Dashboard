@@ -19,8 +19,6 @@ function App() {
         <VerticalNav />
         <div className="h-screen bg-primary ml-24">
           <Header />
-      <ArrowButton direction="right"/>
-
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/activity" element={<Activity />} />
